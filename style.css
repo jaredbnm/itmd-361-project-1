@@ -1,0 +1,31 @@
+#nav {
+  background-color: #88a6c5;
+  padding: 10px;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+#nav a:hover {
+  background-color: #40668d;
+}
+
+#nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#header {
+  
+}
