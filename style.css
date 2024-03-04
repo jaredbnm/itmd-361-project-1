@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'SilkaMono';
+  src: url(fonts/SilkaMono-Regular.otf);
+}
+@font-face {
+  font-family: 'Trap';
+  src: url(fonts/Trap-Bold.otf);
+}
+@font-face {
+  font-family: 'Aeronaut';
+  src: url(fonts/POIAeronautTrial-Regular.otf);
+}
+
+body {
+  font-family: 'SilkaMono';
+}
+
 #nav {
   background-color: #88a6c5;
   padding: 10px;
@@ -19,13 +36,20 @@
 
 #nav a:hover {
   background-color: #40668d;
+  padding: 2px;
+  margin: 0px;
 }
 
 #nav li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 45px;
 }
 
+
 #header {
-  
+  font-family: 'Aeronaut';
+}
+
+#header2 {
+  font-family: 'Aeronaut';
 }
