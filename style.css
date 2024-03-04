@@ -73,16 +73,23 @@ body {
   text-align: center;
 }
 
-#image {
-  box-shadow: inset;
+#song1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#image1 {
+  box-shadow: 10px;
   transition: 1s;
   text-align: center;
+  float: left;
+  margin-right: 20px;
 }
 
-#image {
-  position: left;
+#image1 a {
+  border-radius: 20px;
 }
 
-#image:hover {
+#image1:hover {
   transform:scale(1.1);
 }
