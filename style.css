@@ -53,3 +53,7 @@ body {
 #header2 {
   font-family: 'Aeronaut';
 }
+
+#content {
+  margin: 50px;
+}
