@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'SilkaMono';
+  src: url(fonts/SilkaMono-Regular.otf);
+}
+@font-face {
+  font-family: 'Trap';
+  src: url(fonts/Trap-Bold.otf);
+}
+@font-face {
+  font-family: 'Aeronaut';
+  src: url(fonts/POIAeronautTrial-Regular.otf);
+}
+
+body {
+  background-image: url(media/gradient.jpg);
+  background-size: cover;
+  font-family: 'SilkaMono';
+}
+
+#page-wrapper {
+  width: 1200px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 1px;
+}
+
+#nav {
+  background-color: #63b0e0;
+  padding: 10px;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+#nav a:hover {
+  background-color: #40668d;
+  padding: 2px;
+}
+
+#nav li {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+#content {
+  margin: 50px;
+}
+
+#detroit {
+  text-align: center;
+}
+
+.video {
+  display: block;
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pics {
+  text-align: center;
+}
+
+img  {
+  border-radius: 5px;
+  box-shadow: 0 0 2px;
+}
+
+.songs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image {
+  transition: 1s;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+
+.image:hover {
+  transform:scale(1.1);
+}
