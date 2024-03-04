@@ -18,15 +18,15 @@ body {
 }
 
 #page-wrapper {
-  width: 960px;
-  margin: 0 auto;
+  width: 1200px;
+  margin: auto;
   background-color: white;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   padding-bottom: 1px;
 }
 
 #nav {
-  background-color: #88a6c5;
+  background-color: #63b0e0;
   padding: 10px;
 }
 
@@ -47,21 +47,11 @@ body {
 #nav a:hover {
   background-color: #40668d;
   padding: 2px;
-  margin: 0px;
 }
 
 #nav li {
   display: inline-block;
   margin-right: 45px;
-}
-
-
-#header {
-  font-family: 'Aeronaut';
-}
-
-#header2 {
-  font-family: 'Aeronaut';
 }
 
 #content {
@@ -81,4 +71,18 @@ body {
 
 #pics {
   text-align: center;
+}
+
+#image {
+  box-shadow: inset;
+  transition: 1s;
+  text-align: center;
+}
+
+#image {
+  position: left;
+}
+
+#image:hover {
+  transform:scale(1.1);
 }
