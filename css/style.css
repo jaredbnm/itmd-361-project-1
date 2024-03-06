@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'SilkaMono';
-  src: url(fonts/SilkaMono-Regular.otf);
+  src: url(../fonts/SilkaMono-Regular.otf);
 }
 @font-face {
   font-family: 'Trap';
-  src: url(fonts/Trap-Bold.otf);
+  src: url(../fonts/Trap-Bold.otf);
 }
 @font-face {
   font-family: 'Aeronaut';
-  src: url(fonts/POIAeronautTrial-Regular.otf);
+  src: url(../fonts/POIAeronautTrial-Regular.otf);
 }
 
 body {
-  background-image: url(media/gradient.jpg);
+  background-image: url(../media/gradient.jpg);
   background-size: cover;
   font-family: 'SilkaMono';
 }
