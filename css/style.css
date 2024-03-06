@@ -27,7 +27,7 @@ body {
 
 #nav {
   background-color: #63b0e0;
-  padding: 10px;
+  padding: 25px;
 }
 
 #nav ul {
@@ -42,11 +42,13 @@ body {
   text-decoration: none;
   text-align: center;
   display: block;
+  font-weight: bold;
 }
 
 #nav a:hover {
-  background-color: #40668d;
-  padding: 2px;
+  transition: 0.5s;
+  transform: scale(1.1);
+  text-shadow: 0 0 5px #ffffff
 }
 
 #nav li {
@@ -91,5 +93,5 @@ img  {
 }
 
 .image:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
