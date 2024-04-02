@@ -1,14 +1,6 @@
 @font-face {
   font-family: 'SilkaMono';
-  src: url(../fonts/SilkaMono-Regular.otf);
-}
-@font-face {
-  font-family: 'Trap';
-  src: url(../fonts/Trap-Bold.otf);
-}
-@font-face {
-  font-family: 'Aeronaut';
-  src: url(../fonts/POIAeronautTrial-Regular.otf);
+  src: url(../fonts/silkamono_regular.otf);
 }
 
 body {
@@ -62,6 +54,7 @@ body {
 
 #detroit {
   text-align: center;
+  float: none;
 }
 
 .video {
@@ -69,6 +62,7 @@ body {
   width: 610px;
   margin-left: auto;
   margin-right: auto;
+  float: none;
 }
 
 #pics {
@@ -83,6 +77,8 @@ img  {
 .songs {
   margin-top: 50px;
   margin-bottom: 50px;
+  overflow: none;
+  float: none;
 }
 
 .image {
@@ -94,4 +90,8 @@ img  {
 
 .image:hover {
   transform: scale(1.1);
+}
+
+h3 {
+  font-weight: bold;
 }
