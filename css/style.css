@@ -77,7 +77,7 @@ img  {
 .songs {
   margin-top: 50px;
   margin-bottom: 50px;
-  overflow: none;
+  overflow: auto;
   float: none;
 }
 
