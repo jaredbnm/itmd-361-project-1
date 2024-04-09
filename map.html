@@ -1,12 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Maps</title>
+  <meta charset="utf-8">
+  <title>Map</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script async src="js/map.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAliLzLS_xAtNOH09BLE3OEoJF9bR3FuVo&loading=async&callback=initMap">
+  </script>
+  <script src="js/map.js"></script>
 </head>
 
 <body>
@@ -19,11 +20,11 @@
         <li><a href="map.html">Map</a></li>
       </ul>
     </nav>
+    <h1 id="h1">Google Map</h1>
     <div id="map"></div>
-    
-    <script async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhweDZJ2ULtdPKiJaNfxJHSKRqE0TgPcM&loading=async&callback=initMap">
-    </script>
+    <div id="buttons">
+      <div class="button">Re-center</div>
+    </div>
   </div>
 </body>
 </html>
