@@ -9,11 +9,12 @@ async function initMap() {
   const marker = new google.maps.Marker({
     position: {lat: 41.83584308012992, lng: -87.62586149478142},
     map: map,
-    title: "MTCC"
+    title: "MTCC",
+    draggable: true
   });
 
   const infoWindow = new google.maps.InfoWindow({
-    content: "This is the McCormick Tribune Campus Center.",
+    content: "Drag me to move around",
   });
   infoWindow.open(map, marker);
 
