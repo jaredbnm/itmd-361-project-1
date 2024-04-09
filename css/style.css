@@ -151,7 +151,11 @@ img  {
     font-size: 1.2rem;
     line-height: 1.5;
   }
+  h2 {
+    font-weight: bold;
+  }
   img {
     width: 200px;
+    float: none;
   }
 }
