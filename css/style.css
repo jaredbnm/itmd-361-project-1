@@ -104,3 +104,19 @@ img  {
 #h1 {
   text-align: center;
 }
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button {
+  text-align: center;
+  background-color: #d0a5f1;
+  width: 120px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+}
