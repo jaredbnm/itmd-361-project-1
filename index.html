@@ -26,8 +26,24 @@
       <main>
           <p>Hello, my name is Jared Benman and I am a second year at Illinois Tech! I am currently an ITM major and I plan to use my degree to become a UI/UX designer in the future.</p>
           <p>I'm from Michigan, and I was born in Detroit.</p>
-          <div id="detroit">
-            <img src="media/detroit.jpg" alt="Detroit Skyline">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="media/detroit-1.jpg" alt="detroit skyline 1">
+            </div>
+            <div class="mySlides fade">
+              <img src="media/detroit-2.jpeg" alt="detroit skyline 2">
+            </div>
+            <div class="mySlides fade">
+              <img src="media/detroit-3.jpeg" alt="detroit skyline 3">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
           </div>
         <section id="hobbies">
           <h2 id="header2">Hobbies</h2>
